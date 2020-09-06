@@ -1,0 +1,48 @@
+header {
+  text-align: center;
+}
+
+body {
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+tr {
+  border: solid 1px;
+  padding: 10px;
+}
+
+th,
+td {
+  border: solid 1px;
+  max-width: 100px;
+  width: 100px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.graph {
+  padding: 10px;
+}
+.del_record {
+  padding: 10px;
+}
+
+.chg_record {
+  padding: 10px;
+}
+
+#save {
+  cursor: pointer;
+}
+
+#clear {
+  cursor: pointer;
+}
+.graph {
+  cursor: pointer;
+}

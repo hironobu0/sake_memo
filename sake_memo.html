@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <title>myMemoPad</title>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Sake_Memo</h1>
+    </header>
+    <main>
+      <p>お酒の名前</p>
+      <input type="text" id="name" />
+
+      <p>名産地</p>
+      <input type="text" id="meisan" />
+
+      <p>酒造名</p>
+      <input type="text" id="shuzou" />
+
+      <p>感想</p>
+      <textarea name="" id="impression" cols="30" rows="10"></textarea>
+
+      <h2>味</h2>
+      <p>華やか</p>
+      <select name="" id="hanayaka" class="taste_value"></select>
+      <p>芳醇</p>
+      <select name="" id="houjun" class="taste_value"></select>
+      <p>重厚</p>
+      <select name="" id="juukou" class="taste_value"></select>
+      <p>穏やか</p>
+      <select name="" id="odayaka" class="taste_value"></select>
+      <p>ドライ</p>
+      <select name="" id="dry" class="taste_value"></select>
+      <p>軽快</p>
+      <select name="" id="keikai" class="taste_value"></select>
+
+      <div>
+        <h2 id="save">Save</h2>
+      </div>
+      <div>
+        <h2 id="clear">Clear</h2>
+      </div>
+    </main>
+    <table id="list">
+      <!-- ここに追加データが挿入される -->
+    </table>
+
+    <canvas id="myRaderChart"></canvas>
+    <!-- CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+    <script src="js/index.js"></script>
+    <footer><small></small></footer>
+  </body>
+</html>
