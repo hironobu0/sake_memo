@@ -46,3 +46,7 @@ td {
 .graph {
   cursor: pointer;
 }
+
+.del_record {
+  cursor: pointer;
+}
