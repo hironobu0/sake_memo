@@ -18,11 +18,16 @@ tr {
 th,
 td {
   border: solid 1px;
-  max-width: 100px;
-  width: 100px;
+  max-width: 150px;
+  width: 150px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+}
+
+#imp {
+  max-width: 300px;
+  width: 300px;
 }
 
 .graph {

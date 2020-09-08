@@ -98,12 +98,6 @@ for (let i = 0; i < localStorage.length; i++) {
   $('#list').append(html);
 }
 
-// for (let i = 1; i <= localStorage.length; i++) {
-//   $('#' + i).on('click', function () {
-//     let record = document.getElementById(i);
-//     localStorage.removeItem(i);
-//   });
-// }
 
 //グラフ用のJSONを定義
 let getJsonData = {
@@ -188,8 +182,4 @@ for (let i = 0; i < localStorage.length; i++) {
     emptyOut();
   });
 }
-//削除クリック→そのレコードのキーを取得→レコードを削除
-// $('#' + i).on('click', function () {
-//   let record = document.getElementById(i);
-//   localStorage.removeItem('urlBlackList');
-// });
+
